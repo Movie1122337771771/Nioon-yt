@@ -57,7 +57,7 @@ Fb-Url: -=-${q}
   },
   TWITTER: function (desc, q) {
     return `
-💢 QUEEN ANJU-MD TWITTER DOWNLOADER 💢
+💢 DARK NIOON TWITTER DOWNLOADER 💢
 
 📝 Description: ${desc || "No description"}
 
@@ -69,7 +69,7 @@ Twitter URL: ${q}
   ALIVEVOICE: "./src/media/Auto_voice/alive.aac",
   ALIVEMSG: function (hostname, config, pushname, runtime) {
     return `
-🧚‍♂️⃟🩵 𝐐𝐔𝐄𝐄𝐍 𝐀𝐍𝐉𝐔 𝐀𝐋𝐈𝐕𝐄 𝐒𝐓𝐀𝐓𝐔𝐒 🧚‍♂️⃟🩵
+🧚‍♂️⃟🩵 DARK NIOON ALIVE  STATUS 🧚‍♂️⃟🩵
 
 ✘◍ 𝗜'𝗺 𝗔𝗹𝗶𝘃𝗲, 𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝗔𝘀𝗸𝗶𝗻𝗴!
 
@@ -97,7 +97,7 @@ Twitter URL: ${q}
     )}MB / ${Math.round(require("os").totalmem / 1024 / 1024)}MB
 ┗━━━━━━━━━━━━━━━
 
-💬 ᴇɴᴏʏ ᴛʜᴇ 𝗯𝗼𝘁 ᴏ𝗳 𝚚𝚞𝚎𝚎𝚗 𝗮𝗻𝗷𝘂! ✨
+💬 Enjoy Dark Nioon whatapp bot ! ✨
         `.trim();
   },
   //====================movie======================================
