@@ -55,5 +55,5 @@ module.exports = {
   SESSION_DIR: process.env.SESSION_DIR || "sess",
   TOKEN: "7RbI8PbYaLKNwOKcLnAgVrvd7L37Ld4VJoOr",
   USERNAME: "Movie1122337771771",
-  REPO_NAME: "Nioon yt",
+  REPO_NAME: "Nioon-yt",
 };
