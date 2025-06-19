@@ -37,7 +37,7 @@ module.exports = {
   //======================download============================
   TIKTOK: function (title, author, q) {
     return `
-🎟️ *QUEEN ANJU-MD TIKTOK DOWNLOADER* 🎟️
+🎟️ *DARK NIOON-MD TIKTOK DOWNLOADER* 🎟️
 
 🔢 *Please reply with the number you want to select:*
 
@@ -48,7 +48,7 @@ URL    * ${q}
   },
   FACEBOOK: function (title, q) {
     return `
-💢 QUEEN ANJU-MD FB DOWNLOADER 💢
+💢 DARK NIOON-MD FB DOWNLOADER 💢
     
 🎞 TITLE 🎞 ${title}
 
@@ -66,10 +66,10 @@ Twitter URL: ${q}
   },
   //=================main==================================
   ALIVEIMG: "./src/media/LOGOS/alive.jpg",
-  ALIVEVOICE: "./src/media/Auto_voice/alive.aac",
+  ALIVEVOICE: "Good day to you! My name is Dark NIOON Whatsapp bot. You can get various services from me, including movies and different TV series. Especially movies and TV series. Best wishes to you. Thank you.",
   ALIVEMSG: function (hostname, config, pushname, runtime) {
     return `
-🧚‍♂️⃟🩵 DARK NIOON ALIVE  STATUS 🧚‍♂️⃟🩵
+💞 *DARK NIOON ALIVE  STATUS* 💞
 
 ✘◍ 𝗜'𝗺 𝗔𝗹𝗶𝘃𝗲, 𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝗔𝘀𝗸𝗶𝗻𝗴!
 
@@ -126,7 +126,7 @@ Twitter URL: ${q}
        
 ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${rating?.value || "𝙽/𝙰"} ★
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${metadata?.releaseDate || "𝙽/𝙰"}
-🌐 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${metadata?.country || "𝙽/𝙰"}
+🌍 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${metadata?.country || "𝙽/𝙰"}
 ⏱️ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${metadata?.runtime || "𝙽/𝙰"}
 🎭 *𝙶𝚎𝚗𝚛𝚎𝚜:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
         `.trim();
