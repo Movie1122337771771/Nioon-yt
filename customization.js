@@ -66,10 +66,10 @@ Twitter URL: ${q}
   },
   //=================main==================================
   ALIVEIMG: "./src/media/LOGOS/alive.jpg",
-  ALIVEVOICE: "Good day to you! My name is Dark NIOON Whatsapp bot. You can get various services from me, including movies and different TV series. Especially movies and TV series. Best wishes to you. Thank you.",
+  
   ALIVEMSG: function (hostname, config, pushname, runtime) {
     return `
-💞 *DARK NIOON ALIVE  STATUS* 💞
+💞 *DARK NIOON ALIVE  STATUS* 
 
 ✘◍ 𝗜'𝗺 𝗔𝗹𝗶𝘃𝗲, 𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝗔𝘀𝗸𝗶𝗻𝗴!
 
